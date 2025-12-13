@@ -1,0 +1,13 @@
+HumanMessage(content="Hello, I need help with my order"),
+AIMessage(content="Hi! I'd be happy to help. What's your order number?"),
+HumanMessage(content="It's ORDER-2024-5847"),
+AIMessage(content="Thank you! I found your order. What seems to be the issue?"),
+HumanMessage(content="The item arrived damaged. Can I get a replacement?"),
+AIMessage(content="I sincerely apologize for that. Let me look into this further. Can you provide more details about the damage?"),
+HumanMessage(content="The package was crushed and the product is broken"),
+AIMessage(content="Thank you for the details. I understand your frustration. Your refund is currently being processed and is yet to be completed."),
+HumanMessage(content="How long will this take?"),
+AIMessage(content="The refund is yet to be processed. You should expect it to be completed within 5-7 business days once processing begins."),
+HumanMessage(content="Okay, I'll wait for your response"),
+AIMessage(content="Thank you for your patience. We appreciate your business and will process your refund as soon as possible."),
+

@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "celebrity",
+        "length",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert biographer and storyteller. Provide a comprehensive overview of {celebrity}.\n\n**Context:**\n- Style: {style}\n- Length: {length}\n\n**Structure your response as follows:**\n1. **Early Life & Background**: Birth, family, formative years\n2. **Career Rise**: Major milestones and breakthrough moments\n3. **Notable Achievements**: Awards, records, cultural impact\n4. **Personal Life**: Relationships and interests (if relevant)\n5. **Legacy & Influence**: Long-term impact and current relevance\n\nEnsure the tone matches the requested style and keep the explanation to the specified length.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
