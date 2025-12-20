@@ -8,9 +8,7 @@ load_dotenv()
 if not (os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")):
     raise ValueError("GOOGLE_API_KEY not found in environment variables.")
 
-model = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash-lite", temperature=0, max_output_tokens=1024
-)
+model = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite")
 
 chat_history = [
     SystemMessage(
